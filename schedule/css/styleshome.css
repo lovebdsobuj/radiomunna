@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 700 1.5em/1.38 'Droid Serif';
+  color: rgb(255, 255, 255);
+}
+
+.element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 86px;
+  background-color: #2c3e50;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.text {
+  text-align: center;
+}
+
+._button {
+  display: block;
+  float: left;
+  width: 56%;
+  height: 53px;
+  margin-left: 22%;
+  border-radius: 3px;
+  background-color: #64b5f6;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._button:hover {
+  background-color: rgb(243, 164, 52);
+}
+
+.text-1 {
+  position: absolute;
+  top: 26px;
+  left: 24.0223214285%;
+  z-index: 1;
+  font: 0.833em/2 Bitter;
+  color: #ffffff;
+  -webkit-transition: absolute;
+  -moz-transition: absolute;
+  -o-transition: absolute;
+  -ms-transition: absolute;
+  transition: absolute;
+}
+
+.text-2 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
+  margin: -43px 0 0 42.1361599999%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.text-2:hover {
+  font: 700 24/1.38 'Droid Serif';
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+._button-1 {
+  position: relative;
+  z-index: 3;
+  margin-top: 120px;
+}
+
+._button-2 {
+  margin-top: 33px;
+}
+
+._button-3,
+._button-5 {
+  clear: both;
+  margin-top: 38px;
+}
+
+._button-4,
+._button-6 {
+  clear: both;
+  margin-top: 33px;
+}
+
+._button-7 {
+  clear: both;
+  margin-top: 36px;
+}
+
+.text a,
+.text em,
+.text span,
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text a:hover {
+  font-family: inherit;
+}
