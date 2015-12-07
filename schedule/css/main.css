@@ -1,49 +1,98 @@
-/* Interaction Elements */
+/* Text Elements */
 
-button[type=submit].button-submit-1 {
-  position: static;
-  float: none;
-  min-width: 0;
-  max-width: none;
-  width: 100%;
-  background-color: #64b5f6;
-  color: #000;
+span.text-element.text-1 {
   text-align: center;
-  -webkit-transition-timing-function: ease;
-     -moz-transition-timing-function: ease;
-      -ms-transition-timing-function: ease;
-       -o-transition-timing-function: ease;
-          transition-timing-function: ease;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-button[type=submit].button-submit-2 {
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: auto;
-  display: inline-block;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding-top: 18px;
-  padding-right: 70px;
-  padding-left: 70px;
-  width: 100%;
-  background-color: #e3f2fd;
-  color: #000;
-  vertical-align: middle;
+span.text-element span.text-text-1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/* Common Elements */
+
+div.table-container.table-1 td {
   text-align: center;
-  -webkit-transition-timing-function: ease;
-     -moz-transition-timing-function: ease;
-      -ms-transition-timing-function: ease;
-       -o-transition-timing-function: ease;
-          transition-timing-function: ease;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+div.table-container.table-1 th {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+div.table-container span.table-text-1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+div.table-container span.table-text-2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+div.table-container span.table-text-3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+div.table-container span.table-text-4 {
+  font-weight: 500;
+  font-size: 12px;
 }
 
 /* Layout Elements */
 
 body > .row > [class*='coffee-span-'].column-1 {
-  float: none;
-  max-height: none;
+  background-color: #3f51b5;
+}
+
+@media screen and (max-width: 898px) {
+  /* Text Elements */
+
+  span.text-element span.text-text-1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  span.text-element.text-1 {
+    text-align: center;
+  }
+
+  /* Common Elements */
+
+  div.table-container.table-1 td {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  div.table-container.table-1 th {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='coffee-span-'].column-1 {
+    background-color: #3f51b5;
+  }
+
+  body > .row.row-1 {
+    background-color: #702270;
+  }
+
+  body > .row > [class*='coffee-span-'].column-2 {
+    background-color: #fff;
+  }
 }
